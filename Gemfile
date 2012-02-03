@@ -5,9 +5,11 @@ gem 'rails', '3.0.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-#gem 'sqlite3', '1.3.3'
-gem 'pg'
+gem 'sqlite3', '1.3.3'
+#gem 'pg'
+
 group :development do
+    gem 'heroku' # tailstutorial.org overlooks this
     gem 'rspec-rails' , '2.6.1'
 end
 
